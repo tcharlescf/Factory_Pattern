@@ -3,11 +3,11 @@ import java.util.ArrayList;
 
 public abstract class Pizza {
 
-    protected String name;
+    protected String name = null;
 
-    protected String dough;
+    protected String dough = null;
 
-    protected String sauce;
+    protected String sauce = null;
 
     protected ArrayList toppings = new ArrayList();
 
